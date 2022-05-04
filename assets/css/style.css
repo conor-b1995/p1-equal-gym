@@ -8,7 +8,7 @@
 
 body {
     font-family: Sorce sans pro, sans-serif;
-    color: #280303;
+    color: #000000;
 }
 
 /* headings*/
@@ -24,6 +24,7 @@ h1, h2 {
     font-size: 300%;
     letter-spacing: 5px;
     float: left;
+    margin-left: 40px;
 }
 
 #menu, #logo {
@@ -34,11 +35,12 @@ h1, h2 {
     font-size: 120%;
     float: right;
     list-style-type: none;
-    margin-right: 20px;
+    margin-right: 30px;
 }
 
 #menu li {
-    display: inline-block;    
+    display: inline-block;
+    padding-right: 10px;    
 }
 
 #menu a {
@@ -49,3 +51,13 @@ h1, h2 {
     color: #0EDA68;
 }
 
+
+/* hero image */
+
+#hero-image {
+    height: 700px;
+    width: 100%;
+    background: url(../images/risen-wang-20jX9b35r_M-unsplash.jpg) no-repeat center right;
+    background-size: cover;
+    overflow: hidden;
+}
