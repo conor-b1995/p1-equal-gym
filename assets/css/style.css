@@ -7,5 +7,45 @@
 }
 
 body {
-    font-family: Bebas Neue, sans-serif;
+    font-family: Sorce sans pro, sans-serif;
+    color: #280303;
 }
+
+/* headings*/
+
+h1, h2 {
+    font-family: Bebas Neue, sans-serif;
+    text-transform: uppercase;
+}
+
+/* logo and nav  */
+
+#logo {
+    font-size: 300%;
+    letter-spacing: 5px;
+    float: left;
+}
+
+#menu, #logo {
+    line-height: 100px;
+}
+
+#menu {
+    font-size: 120%;
+    float: right;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+#menu li {
+    display: inline-block;    
+}
+
+#menu a {
+    text-decoration: none;
+}
+
+#menu a:hover {
+    color: #0EDA68;
+}
+
