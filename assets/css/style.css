@@ -25,7 +25,7 @@ h1, h2 {
     letter-spacing: 5px;
     float: left;
     margin-left: 40px;
-    color: #5f4242;
+    color: #ad5b5b;
 }
 
 #menu, #logo {
@@ -46,7 +46,7 @@ h1, h2 {
 
 #menu a {
     text-decoration: none;
-    color: #5f4242;
+    color: #ad5b5b;
 }
 
 #menu a:hover {
@@ -70,7 +70,7 @@ h1, h2 {
     text-align: center;
     font-size: 250%;
     margin-top: 20px;
-    color: #5f4242;
+    color: #ad5b5b;
 }
 
 #facilities {
@@ -102,6 +102,12 @@ h1, h2 {
 }
 
 #facilities  i {
-    color: #5f4242;
+    color: #ad5b5b;
     font-size: 150%;
 }
+
+/* class schedule */
+ #classes {
+     background-color: #000000;
+     color: #ffffff;
+ }
