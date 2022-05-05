@@ -21,10 +21,11 @@ h1, h2 {
 /* logo and nav  */
 
 #logo {
-    font-size: 300%;
+    font-size: 400%;
     letter-spacing: 5px;
     float: left;
     margin-left: 40px;
+    color: #5f4242;
 }
 
 #menu, #logo {
@@ -32,7 +33,7 @@ h1, h2 {
 }
 
 #menu {
-    font-size: 120%;
+    font-size: 150%;
     float: right;
     list-style-type: none;
     margin-right: 30px;
@@ -45,6 +46,7 @@ h1, h2 {
 
 #menu a {
     text-decoration: none;
+    color: #5f4242;
 }
 
 #menu a:hover {
@@ -55,9 +57,51 @@ h1, h2 {
 /* hero image */
 
 #hero-image {
-    height: 700px;
+    height: 600px;
     width: 100%;
     background: url(../images/risen-wang-20jX9b35r_M-unsplash.jpg) no-repeat center right;
     background-size: cover;
     overflow: hidden;
+}
+
+/* facilities section */
+
+.header {
+    text-align: center;
+    font-size: 250%;
+    margin-top: 20px;
+    color: #5f4242;
+}
+
+#facilities {
+    height: 300px;
+    font-size: 100%;
+    margin: 0;
+}
+
+#top-facilities {
+    width: 100%;
+    text-align: center;
+}
+
+#top-facilities li {
+    display: inline-block;
+    padding: 0 25px;
+    margin: 40px 0 20px 0;
+}
+
+#bottom-facilities {
+    width: 100%;
+    text-align: center;
+}
+
+#bottom-facilities li {
+    display: inline-block;
+    padding: 0 25px;
+    margin: 20px 0;
+}
+
+#facilities  i {
+    color: #5f4242;
+    font-size: 150%;
 }
