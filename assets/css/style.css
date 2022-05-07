@@ -144,5 +144,14 @@ h2 {
     text-align: center;
     margin: 10px 0;
     font-size: 150%;
-    color: #ad5b5b;
+    /* color: #ad5b5b; */
+    text-decoration: underline;
+}
+
+#classes p {
+    text-align: center;
+}
+
+span {
+    color: #0EDA68;
 }
