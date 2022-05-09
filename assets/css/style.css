@@ -26,7 +26,7 @@ h2 {
     letter-spacing: 5px;
     float: left;
     margin-left: 40px;
-    color: #ad5b5b;
+    color: #AD0000;
 }
 
 #menu,
@@ -48,7 +48,7 @@ h2 {
 
 #menu a {
     text-decoration: none;
-    color: #ad5b5b;
+    color: #AD0000;
 }
 
 #menu a:hover {
@@ -72,7 +72,14 @@ h2 {
     text-align: center;
     font-size: 250%;
     padding-top: 20px;
-    color: #ad5b5b;
+    color: #AD0000;
+}
+
+.header-beige {
+    text-align: center;
+    font-size: 250%;
+    padding-top: 20px;
+    color: beige;
 }
 
 #facilities {
@@ -201,5 +208,6 @@ h2 {
 
 #free-month {
     height: 500px;
-    background-color: #000000;
+    background: url(../images/photo-1590239926044-4131f5d0654d.avif) center right / cover no-repeat fixed;
+    
 }
