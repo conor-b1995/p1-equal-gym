@@ -158,19 +158,37 @@
 
     </section>
 
-    <form action="" method="post" id="free-month">
+    <section id="free-month">
         <h2 class="header-beige">Free Trial</h2>
 
-        <label for="fname">Full Name</label>
-        <input type="text" name="full_name" id="fname">
+        <form action="" method="post" id="trial-form">
 
-        <label for="email">Email Address</label>
-        <input type="email" name="email" id="email">
+            <h3>Get one month free membership and check out our gym!!</h3>
 
-        <label for="phone">Phone Number</label>
-        <input type="number" name="phone_number" id="phone">
+            <label for="fname">Full Name</label>
+            <input type="text" name="full_name" id="fname" class="input-field" required>
 
-    </form>
+            <label for="email">Email Address</label>
+            <input type="email" name="email" id="email" class="input-field" required>
+
+            <label for="phone">Phone Number</label>
+            <input type="number" name="phone_number" id="phone" class="input-field" required>
+
+            <h3>Interested in:</h3>
+
+            <label for="class">Classes</label>
+            <input type="radio" name="interest_in" id="class" value="class" required>
+
+            <label for="solo">Solo work</label>
+            <input type="radio" name="interest_in" id="solo" value="solo">
+
+            <label for="both">Both</label>
+            <input type="radio" name="interest_in" id="both" value="both">
+
+            <input type="button" value="Submit" id="submit-button">
+        </form>
+
+    </section>
 
     <footer>
         contact info plus social media links
