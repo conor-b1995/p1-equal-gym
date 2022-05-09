@@ -104,7 +104,7 @@ h2 {
 }
 
 #facilities i {
-    color: #ad5b5b;
+    color: #007A00;
     font-size: 150%;
 }
 
@@ -154,13 +154,13 @@ h2 {
 }
 
 #classes span {
-    color: #0EDA68;
+    color: #fed766;
 }
 
 /* price list */
 
 #prices {
-    height: 500px;
+    height: 400px;
 }
 
 #price-grid {
@@ -181,9 +181,25 @@ h2 {
 }
 
 #prices span {
-    color: #DE0000;
+    color: #007A00;
 }
 
 #prices p { 
     text-align: center;
+    /* margin: 30px; */
+}
+
+#class-info {
+    margin: 60px;
+}
+
+#class-info p {
+    padding: 5px;
+}
+
+/* form */
+
+#free-month {
+    height: 500px;
+    background-color: #000000;
 }
