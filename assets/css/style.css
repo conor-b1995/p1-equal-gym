@@ -260,3 +260,14 @@ h2 {
 input[type=radio] {
     margin-right: 10px;
 }
+
+/* footer */
+
+#contact {
+    height: 600px;
+}
+
+#contact-container {
+    height: 250px;
+    width: 100%;
+}
