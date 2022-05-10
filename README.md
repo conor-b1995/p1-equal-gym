@@ -20,7 +20,7 @@ Equal Gym is a site for people who are interested in starting there fitness jour
 
 ## Features
 
-### Existing Features
+* ### Existing Features
 
     * Navigation Bar
         * The navigation bar includes links to all sections on the page and allows for smooth transition to every section.
