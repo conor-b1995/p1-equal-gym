@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: Sorce sans pro, sans-serif;
+    font-family: Source sans pro, sans-serif;
     color: #000000;
 }
 
@@ -58,12 +58,34 @@ h2 {
 
 /* hero image */
 
+#image-outer {
+    position: relative;
+}
+
 #hero-image {
     height: 600px;
     width: 100%;
     background: url(../images/risen-wang-20jX9b35r_M-unsplash.jpg) no-repeat center right;
     background-size: cover;
     overflow: hidden;
+}
+
+#image-text, #image-text h2 {
+    color: #fafafa;
+}
+
+#image-text {
+    width: 300px;
+    height: 200px;
+    background-color:  rgb(211, 0, 0, .8);
+    text-transform: uppercase;
+    font-size: 130%;
+    letter-spacing: 2px;
+    padding-left: 10px;
+    padding-top: 20px;
+    position: absolute;
+    bottom: 130px;
+    left: 450px;
 }
 
 /* facilities section */
@@ -135,6 +157,7 @@ h2 {
 #class-grid li {
     list-style: none;
     padding: 5px 0;
+    font-size: 120%;
 }
 
 .border {
@@ -164,6 +187,10 @@ h2 {
     color: #fed766;
 }
 
+#classes a {
+    color: #fafafa;
+}
+
 /* price list */
 
 #prices {
@@ -180,6 +207,7 @@ h2 {
 #price-grid li {
     list-style: none;
     padding: 5px 0;
+    font-size: 120%;
 }
 
 .border-black {
@@ -198,6 +226,10 @@ h2 {
 
 #class-info {
     margin: 60px;
+}
+
+#class-info a {
+    color: #000000;
 }
 
 /* form */
@@ -268,6 +300,7 @@ input[type=radio] {
     width: 75%;
     margin: 0 auto;
     margin-top: 20px;
+    position: relative;
 }
 
 #contact-left {
@@ -280,7 +313,7 @@ input[type=radio] {
     text-align: left;
     width: 25%;
     float: right;
-    margin-top: -124px;
+    margin-top: -109px;
 }
 
 #contact-center {
