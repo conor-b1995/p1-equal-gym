@@ -296,33 +296,13 @@ input[type=radio] {
 }
 
 #contact-container {
-    height: 250px;
-    width: 75%;
-    margin: 0 auto;
-    margin-top: 20px;
-    position: relative;
+    display: grid;
+    place-content: center;
+    grid-template-columns: repeat(3, 25%);
+    margin: 40px;
 }
 
-#contact-left {
-    text-align: left;
-    width: 25%;
-    float: left;
-}
-
-#contact-right {
-    text-align: left;
-    width: 25%;
-    float: right;
-    margin-top: -109px;
-}
-
-#contact-center {
-    text-align: left;
-    width: 25%;
-    margin: 0 auto;
-}
-
-#contact-right li {
+#contact-container li {
     list-style-type: none;
     padding: 5px 0;
     font-size: 120%;
@@ -358,4 +338,8 @@ input[type=radio] {
 .social {
     font-size: 250%;
     margin: 0 20px;
+}
+
+.center {
+    text-align: center;
 }
