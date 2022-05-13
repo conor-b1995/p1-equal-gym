@@ -21,6 +21,10 @@ h2 {
 
 /* logo and nav  */
 
+header{
+    height: 100px;
+}
+
 #logo {
     font-size: 400%;
     letter-spacing: 5px;
