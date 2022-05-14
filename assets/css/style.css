@@ -472,3 +472,26 @@ input[type=radio] {
     }
 
 }
+
+@media screen and (max-width:370px) {
+    #menu {
+        font-size: 70%;
+    }
+
+    #facilities {
+        height: 700px;
+    }
+
+    #facilities li {
+        font-size: 80%;
+    }
+
+    #classes {
+        height: 1400px;
+    }
+
+    #prices {
+        height: 800px;
+    }
+
+}
