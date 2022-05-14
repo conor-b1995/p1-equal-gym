@@ -459,6 +459,10 @@ input[type=radio] {
 
 @media screen and (max-width:550px) {
     
+    #menu {
+        font-size: inherit;
+    }
+
     #facilities {
         height: 600px;
     }
