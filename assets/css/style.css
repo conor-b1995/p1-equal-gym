@@ -240,7 +240,7 @@ header{
 
 #free-month {
     height: 600px;
-    background: url(../images/photo-1590239926044-4131f5d0654d.avif) center right / cover no-repeat fixed;
+    background: url(../images/photo-1590239926044-4131f5d0654d.avif) center center / cover no-repeat fixed;
 }
 
 #free-month h2 {
@@ -460,7 +460,11 @@ input[type=radio] {
 @media screen and (max-width:550px) {
     
     #facilities {
-        height: 500px;
+        height: 600px;
+    }
+
+    #free-month {
+        background-attachment: scroll;
     }
 
 }
