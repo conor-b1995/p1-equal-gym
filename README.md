@@ -55,4 +55,21 @@ Equal Gym is a site for people who are interested in starting there fitness jour
         * It also includes the address of the gym, phone number, email address and business hours. 
         * This section is important so customers can book classes and cto ask any questions they may have.
         ![Contact section](/assets/images/contact-us.jpg) 
-       
+
+*   ### Future features
+
+    * Another feature I would like to implement down the line is the ability to book classes online rather than having to call everytime.
+
+## Solved bugs  
+*       
+
+## Testing
+* Validator testing
+* Lighthouse testing 
+
+## Deployment
+
+
+## Credits
+* Media
+* Content
