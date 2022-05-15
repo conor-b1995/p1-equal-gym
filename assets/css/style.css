@@ -241,6 +241,7 @@ header{
 #free-month {
     height: 600px;
     background: url(../images/photo-1590239926044-4131f5d0654d.avif) center center / cover no-repeat fixed;
+    background-color: #000000;
 }
 
 #free-month h2 {
