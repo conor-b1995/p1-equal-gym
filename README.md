@@ -1,7 +1,7 @@
 # Equal Gym
 Equal Gym is a site for people who are interested in starting there fitness journey or who just want to continue it in a new gym setting. What users will find on the website is useful information such as all the facilities we provide, the wide range of classes we have, an extensive price list and also the oppurtunity for people to join for one month free to test out eveything we have and to make them feel at home in the gym. Users will also find a contact section to contact us on any queries they have.
 
-[RESPONSIVE IMAGE WILL GO HERE] 
+![RESPONSIVE IMAGE](/assets/images/responsive-site.jpg)
 
 ## User Experience (UX)
 
@@ -64,17 +64,27 @@ Equal Gym is a site for people who are interested in starting there fitness jour
 * When I ran my code through the W3C validator, I was given an error message saying there was an invalid percentage value for one of the grid-template-rows. This was fixed by changing the value to auto.
 * Another error i received when using the W3C validator was that I did not quote my font-family value so I went back to the code and added them in.
 * When testing the links in the header section they would not work. I fixed this by adding a height to the header which fixed the problem.
-
-## Unsolved bugs
-* Background image not loading on mobile devices.
+* The background image on the form section was not loading on some mobile devices but I added a background color in case the image does not load. 
 
 ## Testing
 * ### Validator testing
-* 
-* Lighthouse testing 
+    * The W3C Markup validator and W3C CSS validator were used to validate my project and they both returned with no errors.
+    ![CSS Validation](/assets/images/css-validation.jpg) ![HTML Validation](/assets/images/html-validation.jpg) 
+    * Lighthouse was used to test the accessability of the website and to make sure the fonts and colors used are easily read.
+    ![Lighthouse](/assets/images/lighthouse.jpg) 
+* ### Responsiveness 
+    * I have tested the website is responsive on all sizes of devices and that all text is easily readable.
 
 ## Deployment
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+1. From the github repository click on "settings" from the navigation bar.
+2. Click on "pages" from navigation section on the left.
+3. In the "source" section choose which branch you want to use from the dropdown menu, it will usually be the "main".
+4. Select which folder you want to use, in most cases its the "/root".
+5. Hit the "save" button, then wait for your site to be published.(This can take some time.)
+6. When your site is ready and published the link will be above the "source" section
 
+[The live link can be found here](https://conor-b1995.github.io/p1-equal-gym/)
 
 ## Credits
 * Media
