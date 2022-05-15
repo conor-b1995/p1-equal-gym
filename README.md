@@ -61,10 +61,16 @@ Equal Gym is a site for people who are interested in starting there fitness jour
     * Another feature I would like to implement down the line is the ability to book classes online rather than having to call everytime.
 
 ## Solved bugs  
-*       
+* When I ran my code through the W3C validator, I was given an error message saying there was an invalid percentage value for one of the grid-template-rows. This was fixed by changing the value to auto.
+* Another error i received when using the W3C validator was that I did not quote my font-family value so I went back to the code and added them in.
+* When testing the links in the header section they would not work. I fixed this by adding a height to the header which fixed the problem.
+
+## Unsolved bugs
+* Background image not loading on mobile devices.
 
 ## Testing
-* Validator testing
+* ### Validator testing
+* 
 * Lighthouse testing 
 
 ## Deployment
