@@ -87,5 +87,12 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 [The live link can be found here](https://conor-b1995.github.io/p1-equal-gym/)
 
 ## Credits
-* Media
-* Content
+### Media
+* The icons used in the facilities section were taken from [Font awesome](https://fontawesome.com/)
+* The image used for the hero image and for the background image of the form were both taken from [Unsplash](https://unsplash.com/)
+### Content
+* The idea and framework for the hero image and form section were similar to the ones used in the Love Running project.
+* The grid layout idea came from a video by [Kevin Powell](https://www.youtube.com/user/KepowOb?app=desktop).
+
+### Acknowledgements 
+Id like to thank my mentor Anthony Ugwu for all his help and guidance through my first project.
