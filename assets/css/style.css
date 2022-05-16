@@ -56,7 +56,7 @@ header{
 }
 
 #menu a:hover {
-    color: #0EDA68;
+    color: #007A00;
 }
 
 
@@ -79,17 +79,18 @@ header{
 }
 
 #image-text {
-    width: 300px;
-    height: 200px;
+    width: 550px;
+    height: 150px;
     background-color:  rgb(211, 0, 0, .8);
     text-transform: uppercase;
-    font-size: 130%;
+    font-size: 150%;
     letter-spacing: 2px;
     padding-left: 10px;
     padding-top: 20px;
     position: absolute;
-    bottom: 130px;
-    left: 450px;
+    bottom: 15%;
+    left: 35%;
+    text-align: center;
 }
 
 /* facilities section */
@@ -240,7 +241,7 @@ header{
 
 #free-month {
     height: 600px;
-    background: url(../images/photo-1590239926044-4131f5d0654d.avif) center center / cover no-repeat fixed;
+    background: url(../images/photo-1590239926044-4131f5d0654d\ \(1\).webp) center center / cover no-repeat fixed;
     background-color: #000000;
 }
 
@@ -349,6 +350,10 @@ input[type=radio] {
     text-align: center;
 }
 
+#social-media i {
+    color: #AD0000;
+}
+
 /* media queries */
 
 @media screen and (max-width:1300px) {
@@ -378,6 +383,8 @@ input[type=radio] {
     #image-text {
         left: 0;
         bottom: 30px;
+        width: 400px;
+        height: 200px;
     }
 
     #classes {
