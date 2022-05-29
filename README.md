@@ -75,7 +75,7 @@ Equal Gym is a site for people who are interested in starting there fitness jour
     * The W3C CSS validator was used to validate the css code and returned with no errors.
     ![CSS Validation](/assets/images/css-validation.jpg) 
 * Lighthouse 
-    * Lighthouse was used to test the accessability of the website and to make sure the fonts and colors used are easily read.
+    * Lighthouse was used to test the accessability of the website and to make sure the fonts and colors used are easily readable.
     ![Lighthouse](/assets/images/lighthouse.jpg) 
 * ### Responsiveness 
     * I tested the page throughout my project using chrome developer tools.
