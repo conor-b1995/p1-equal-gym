@@ -79,7 +79,7 @@ header{
 }
 
 #image-text {
-    width: 550px;
+    width: 500px;
     height: 150px;
     background-color:  rgb(211, 0, 0, .8);
     text-transform: uppercase;
@@ -89,7 +89,7 @@ header{
     padding-top: 20px;
     position: absolute;
     bottom: 15%;
-    left: 35%;
+    left: 30%;
     text-align: center;
 }
 
@@ -179,7 +179,6 @@ header{
     text-align: center;
     margin: 10px 0;
     font-size: 150%;
-    /* color: #ad5b5b; */
     text-decoration: underline;
 }
 
@@ -226,7 +225,6 @@ header{
 
 #prices p {
     text-align: center;
-    /* margin: 30px; */
 }
 
 #class-info {
@@ -384,7 +382,7 @@ input[type=radio] {
     #image-text {
         left: 0;
         bottom: 30px;
-        width: 400px;
+        width: 350px;
         height: 200px;
     }
 
@@ -401,25 +399,9 @@ input[type=radio] {
         place-content: center;
     }
 
-    /* #classes h3 {
-        font-size: 110%;
-    }
-
-    #classes li {
-        font-size: 90%;
-    } */
-
     .border {
         border-style: none;
     }
-
-    /* #prices h3 {
-        font-size: 110%;
-    }
-
-    #prices li {
-        font-size: 90%;
-    } */
 
     #prices {
         width: 100%;
