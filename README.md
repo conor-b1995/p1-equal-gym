@@ -1,7 +1,7 @@
 # Equal Gym
 Equal Gym is a site for people who are interested in starting there fitness journey or who just want to continue it in a new gym setting. What users will find on the website is useful information such as all the facilities we provide, the wide range of classes we have, an extensive price list and also the oppurtunity for people to join for one month free to test out eveything we have and to make them feel at home in the gym. Users will also find a contact section to contact us on any queries they have.
 
-![RESPONSIVE IMAGE](/assets/images/responsive-site.jpg)
+![RESPONSIVE IMAGE](/assets/images/responsiveness.jpg)
 
 ## User Experience (UX)
 
@@ -43,17 +43,17 @@ Equal Gym is a site for people who are interested in starting there fitness jour
 
     * Price list
         * The price list gives the user the full price list for all classes, guest passes and for anyone interested in membership.
-        * There is an information message at the bottom to let the user know how long a pass for a class last.
+        * There is an information message at the bottom to let the user know how long a pass for a class lasts.
         ![Price list](/assets/images/price-list.jpg)
 
     * Free trial
-        * The free trial form gives new vistors to the gym/website the opportunity to sign up for one month free to get comfortable and familiar  with the gym.
+        * The free trial form gives new vistors to the gym/website the opportunity to sign up for one month free to get comfortable and familiar with the gym.
         ![Trial form](/assets/images/free-trial.jpg)
 
     * Contact us
         * The contact section includes links to the relevant social media sites. The links will open to a new tab to allow easy navigation to the user.
         * It also includes the address of the gym, phone number, email address and business hours. 
-        * This section is important so customers can book classes and cto ask any questions they may have.
+        * This section is important so customers can book classes and to ask any questions they may have.
         ![Contact section](/assets/images/contact-us.jpg) 
 
 *   ### Future features
@@ -64,15 +64,21 @@ Equal Gym is a site for people who are interested in starting there fitness jour
 * When I ran my code through the W3C validator, I was given an error message saying there was an invalid percentage value for one of the grid-template-rows. This was fixed by changing the value to auto.
 * Another error i received when using the W3C validator was that I did not quote my font-family value so I went back to the code and added them in.
 * When testing the links in the header section they would not work. I fixed this by adding a height to the header which fixed the problem.
-* The background image on the form section was not loading on some mobile devices but I added a background color in case the image does not load. 
+* The background image on the form section was not loading on some mobile devices and some web browsers so I converted the image to WEBP and this fixed the problem. 
 
 ## Testing
-* ### Validator testing
-    * The W3C Markup validator and W3C CSS validator were used to validate my project and they both returned with no errors.
-    ![CSS Validation](/assets/images/css-validation.jpg) ![HTML Validation](/assets/images/html-validation.jpg) 
+### Validator testing
+* HTML
+    * The W3C Markup validator was used to check the html code and returned with no errors.
+    ![HTML Validation](/assets/images/html-validation.jpg) 
+* CSS
+    * The W3C CSS validator was used to validate the css code and returned with no errors.
+    ![CSS Validation](/assets/images/css-validation.jpg) 
+* Lighthouse 
     * Lighthouse was used to test the accessability of the website and to make sure the fonts and colors used are easily read.
     ![Lighthouse](/assets/images/lighthouse.jpg) 
 * ### Responsiveness 
+    * I tested the page throughout my project using chrome developer tools.
     * I have tested the website is responsive on all sizes of devices and that all text is easily readable.
 
 ## Deployment
@@ -88,7 +94,8 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 
 ## Credits
 ### Media
-* The icons used in the facilities section were taken from [Font awesome](https://fontawesome.com/)
+* The icons used in the facilities section were taken from [Font Awesome](https://fontawesome.com/)
+* The fonts used for the web page were got on [Google Fonts](https://fonts.google.com/)
 * The image used for the hero image and for the background image of the form were both taken from [Unsplash](https://unsplash.com/)
 ### Content
 * The idea and framework for the hero image and form section were similar to the ones used in the Love Running project.
